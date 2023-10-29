@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    position: relative;
+}
+
+.page {
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    transition: top 0.5s;
+}
+
+#page1 {
+    display: block;
+}
+
+#toggleButton {
+    display: block;
+    margin: 10px auto;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#page2 {
+    top: 100%;
+}
